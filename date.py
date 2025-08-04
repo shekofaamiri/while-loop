@@ -33,3 +33,11 @@ int Date::get_year(){
 void Date::print_date(){
     cout<<year<<"/"<<month<<"/"<<day;
 }
+int main(){
+    Date birthday;
+    birthday.set_day(12);
+    birthday.set_month(9);
+    birthday.set_year(1382);
+    birthday.print_date();
+    return 0;
+}
